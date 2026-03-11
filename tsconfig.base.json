@@ -19,7 +19,8 @@
       "@car-app/auth": ["libs/web/auth/src/index.ts"],
       "@car-app/cars": ["libs/web/cars/src/index.ts"],
       "@car-app/admin": ["libs/web/admin/src/index.ts"],
-      "@car-app/ui": ["libs/web/ui/src/index.ts"]
+      "@car-app/ui": ["libs/web/ui/src/index.ts"],
+      "@car-app/models": ["libs/shared/models/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
