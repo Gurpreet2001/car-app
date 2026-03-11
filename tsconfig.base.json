@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@car-app/core": ["libs/web/core/src/index.ts"],
+      "@car-app/auth": ["libs/web/auth/src/index.ts"],
+      "@car-app/cars": ["libs/web/cars/src/index.ts"],
+      "@car-app/admin": ["libs/web/admin/src/index.ts"],
+      "@car-app/ui": ["libs/web/ui/src/index.ts"],
+      "@car-app/models": ["libs/shared/models/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
