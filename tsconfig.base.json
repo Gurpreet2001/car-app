@@ -17,7 +17,8 @@
     "paths": {
       "@car-app/core": ["libs/web/core/src/index.ts"],
       "@car-app/auth": ["libs/web/auth/src/index.ts"],
-      "@car-app/cars": ["libs/web/cars/src/index.ts"]
+      "@car-app/cars": ["libs/web/cars/src/index.ts"],
+      "@car-app/admin": ["libs/web/admin/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
