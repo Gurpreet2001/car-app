@@ -30,8 +30,31 @@ typings/
 e2e/*.js
 e2e/*.map
 
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+structure.txt
+
 # System Files
-.DS_Store/
+.DS_Store
+Thumbs.db
+
+.nx/cache
+.nx/workspace-data
+
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
